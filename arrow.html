@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+
+            function person(){
+                this.age=21
+                console.log(this.age)
+                setTimeout(() =>{
+                    this.age++
+                    console.log(this.age)
+                },2000)
+            }
+            const a = new person()
+
+
+        </script>
+    </body>
+</html>
